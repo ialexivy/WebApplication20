@@ -10,6 +10,7 @@ namespace WebApplication20.Controllers
     {
         public IActionResult Index()
         {
+            Console.WriteLine("test");
             return View();
         }
 
